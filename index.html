@@ -1,0 +1,805 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>跨越数字鸿沟：全球性的困境与变局</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Lightbox--> 
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+	
+	<link rel="stylesheet" href="css/aos.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="css/leaflet.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function() {
+		$("#sanjiao").click(function() {
+			$("html, body").animate({scrollTop: $(window).height() }, 1000);
+		});
+		});
+	</script>
+	<script src="js/jquery.preloader.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script type="text/javascript" src="js/echarts.min.js"></script>
+  </head>
+  
+  <body>
+	<script>AOS.init();</script>
+	<div style="margin: 0 auto;" id="preloader">
+		<br><br><br><br><br><br><br><br><br>
+		<div class="windows8">
+			<div class="wBall" id="wBall_1">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_2">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_3">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_4">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_5">
+				<div class="wInnerBall"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(window).preloader({
+			delay: 2000
+		});
+	</script>
+
+	
+    <section class="intro">       
+      <div>
+        <div class="container clearfix">
+          <div class="row">
+			<img id="lou1" src="img/高楼前景.png"  />
+			<img id="lou2" src="img/高楼后景.png"   />
+			<img id="wu1" src="img/小房子前景.png"  />
+			<img id="wu2" src="img/小房子后景.png"   />
+			<img id="shanzuo" src="img/左山.png"   />
+			<img id="shanzuop" src="img/左山补充.png"   />
+			<img id="shanyou" src="img/右山.png"   />
+			<img id="shanyoup" src="img/右山补充.png"   />
+			<img id="chazuo" class="yaobai" src="img/左插座.png"   />
+			<img id="chatou" class="yaobai" src="img/右插头.png"   />
+			<img id="title" src="img/timu.png"  />
+			<img id="beijing" src="img/背景.png"  />
+			<img id="upon" src="img/upon.png"  />
+			<img id="yun1" src="img/yun1.png"  />
+			<img id="yun2" src="img/yun2.png"  />
+			<img id="yun3" src="img/yun3.png"  />
+            
+			
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="img/logo.png" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">首页</a></li>
+              <li class="nav-item"><a href="#zh1" class="nav-link link-scroll">地区差异 </a></li>
+              <li class="nav-item"><a href="#zh2" class="nav-link link-scroll">难民困境</a></li>
+              <li class="nav-item"><a href="#zh3" class="nav-link link-scroll">两性区隔</a></li>
+              <li class="nav-item"><a href="#zh4" class="nav-link link-scroll">老龄危机</a></li>
+              <li class="nav-item"><a href="#zh5" class="nav-link link-scroll">出路何方</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+	
+	
+	<section id="intro" class="text">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <div class="row">
+			<div class="col-lg-8 center">
+				<div class="box">
+					<p class="header">史前时代</p>
+					<p>7月2日，日本电信运营商KDDI遭遇全国性网络故障，大量基于该网络的业务陷入瘫痪，多达4000万用户望着屏幕前的“未能接入互联网”提示一筹莫展，唯一能给予他们慰藉的，是提示旁的一只像素小恐龙。</p>
+					<p>在遭遇断网、恐龙出现的时候，按下空格键，小恐龙便会开始奔跑，跨越重重障碍，作为深受喜爱的小彩蛋，陪伴断网用户消磨时光。
+					</p>
+					<p>这只可爱的小恐龙是Google设计师 Sebastien Gabriel 的作品。他在一次访谈中提到，他觉得没有 WiFi 的年代就像是史前时代，很多人都已经忘记那个只能在公司、学校或者网吧才能上网的年代，所以他就以史前时代的代表——恐龙，作为断网的图标。</p>
+					<div class="aos-init aos-animate" data-aos="fade-left"> 
+						<img src="img/dino.png" style="position: absolute;top:-550px;left:90%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+					
+	
+				
+				</div>
+			</div>
+			<div class="col-lg-8 center">
+				<div class="box">
+				
+					<iframe src="mini-game/dino.html" height="400px" width="100%" style="border: 2px solid black;"></iframe>
+					<p class="illu">以为这是一个断网的网页？鼠标悬停在小恐龙上，按下空格有小彩蛋哦！</p>
+				</div>
+				
+			</div>
+				
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section style="background-color: #fff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+			  
+			  
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">数字鸿沟</p>
+                    <p>在此不久后，KDDI网络服务便得以恢复，对日本网民来说，这场86小时的“史前”危机可能只是生活中的小插曲。然而，对有的人来说，未能接入互联网的“史前时代”却是一种常态。</p>
+					<p>2022年7月发布的《Digital 2022》显示，<strong>全球互联网使用率只有63.1%，世界上仍有29.5亿人无法使用互联网。</strong></p>
+					<p>超过三分之一的全球人口，因为网络接入在不同分化群体之间的差异，仍然活在“史前时代”，难以逾越数字鸿沟。
+					</p>
+					<p>数字鸿沟，即“信息贫困者与信息富有者之间的鸿沟”，已经愈发受到全球各界重视。习近平总书记一再强调，<strong>“要发展信息网络技术，消除不同收入人群、不同地区间的数字鸿沟”。</strong> 全球数字鸿沟是一种新的全球性不平等现象，弥合这一鸿沟是当务之急。联合国副秘书长刘振民表示，<strong>“持续存在的数字鸿沟是国际社会面临的最紧迫的挑战。”	</strong></p>
+					
+					<p>数字鸿沟已经成为一种全球性的困境，弥合鸿沟刻不容缓。</p>
+					<div class="center aos-init aos-animate" data-aos="fade">
+						<img src="img/illu0.png" style="position: absolute;top:-600px;left:50%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+	
+	<section id="zh1" style="background-image: url('img/bj1a.png');" class="text-page section-inverse">
+	
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">地区差异：国际差距悬殊</h2>
+            <div class="row">
+              <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">7.51亿</h1><p>在印度，有<strong>7.51亿人</strong>生活在无法连接互联网的环境中，全球平均<strong>五个</strong>非网民就有两个生活在印度。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">8.5%</h1><p>在马达加斯加与非洲大陆间的科摩罗群岛上，只有<strong>8.5%</strong>的居民能够接触互联网。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">8300万人</h1><p>在非洲，有<strong>8300万人</strong>居住在距离光纤或宽带超过50公里的地方。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">6%</h1><p>在低收入国家，儿童和年轻人能够接入互联网的比例只有<strong>6%</strong>，而在高收入国家这一比例达到<strong>87%</strong>。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <!-- Services-->
+    <section style="background-color: #eee">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+			
+            <div class="row">
+			  
+			  
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">两极分化的数字世界</p>
+                    <p>36.9%的全球互联网使用率下，是互联网使用在地区间的极度不均。</p>
+					<p><strong>在北欧地区，有98%的人口可以使用互联网，是中非地区的互联网普及率的近四倍；而在厄立特里亚，仅有8.0%的全国人口可以接入网络。南亚地区有10.94亿人仍生活在“史前时代”中，是北美地区断网人数的28倍。数字世界的两极，差异极其悬殊。</strong></p>
+					<p class="table">图1：全球部分国家和地区互联网接入率</p>
+					<div class='tableauPlaceholder' id='viz1663170753573' style='position: relative'><noscript><a href='#'><img alt='工作表 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16631394874630&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16631394874630&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16631394874630&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663170753573');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：Kepios, Digital 2022 July Statshot Report.</p>
+					<p><strong>这不仅是地区发展不平衡的问题，更关乎着数字贫瘠地区在过去、现在和未来的发展。</strong>较低的互联网普及率，意味着当地居民很难接受信息技术教育，更意味着未来只有极少数人能够从事信息技术工作，互联网使用受到进一步的限制，形成一个恶性的闭环循环。而发达国家凭借在互联网使用上的优势，能够充分吸取信息技术革命的成果，进一步推动数字经济发展、数字产业进步，培育更多信息技术和互联网领域人才，在高精尖技术领域与数字贫瘠地区进一步拉开差距。
+					</p>
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+	
+	
+	 <section style="background-color: #fff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">		  
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">概况：无从建立的数字生态</p>
+                    <p>非洲地区已经成为数字困境的重灾区。由于基础设施薄弱、连接成本高昂、网络维护困难等原因，<strong>撒哈拉沙漠以南非洲的互联网普及率仅为36%，</strong>在互联网接入率最低的10个国家和地区中，有9个国家位于非洲。</p>
+					<p>在今年5月开幕的数字非洲峰会上，1200多名业界代表在会上一致认为，急需进一步完善和推动地区数字生态系统建设。然而，撒哈拉以南的非洲地区，固定宽带的现有覆盖范围仅有1%，仍有8300万人居住在距离光纤或电缆宽带连接超过50公里远的地方。架设固定宽带的成本是架设移动宽带的7.8倍，达到了该地区国民总收入的165.7%。高昂的网络基础设施建设成本，让当下的数字生态系统举步维艰。</p>
+					<p>然而，数字鸿沟对于非洲的影响，不仅限于眼前。全球移动通信系统协会最新发布的报告预测，到2025年底，北美地区的5G覆盖人口比例将超过63%，而拉丁美洲只有11%，撒哈拉以南非洲地区仅有4%。在新一轮网络技术正在普及应用的当下，数字鸿沟，正在进一步拉开其他地区同非洲的信息技术差距，损害非洲人民在数字时代所应享有的长远利益。</p>
+					</p>
+					<div class="aos-init aos-animate" data-aos="fade-right">
+						<img src="img/africa.png" style="position: absolute;top:-650px;left:10%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+					<br>
+                    <p>南亚地区在非网民人口最多的五个国家中，占据三席。<strong>由于庞大的人口基数，46%的地区互联网接入率下，仍然有10.94亿人生活在没有网络的世界之中。</strong></p>
+					
+					<p>在南亚，2022年使用智能手机的平均成本达到了人均薪酬的54%，而在北美，这一比例仅为2%。南亚居民平均需要支付超过一半的收入来承担智能手机的网络、维护费用。快速上涨的物价加剧了使用智能手机的难度。在2021 年至 2022 年间，南亚最便宜的智能手机的使用成本甚至增加了 20% 以上。</p>
+					<p>与此同时，南亚和非洲也是网络基础设施建设成本最高的两个地区。微薄的国民总收入难以撑起巨大的网络基础设施建设支出，更完全无法建立起完善的数字生态。</p>
+					<p class="table">图2：世界各地网络基础设施的建设成本</p>
+					<div class='tableauPlaceholder' id='viz1663240992006' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632409411420&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16632409411420&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632409411420&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663240992006');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：3W Foundation, "The cost of smartphones falls, but they remain unaffordable for billions around the world".<br>注：使用智能机的成本是指在当地购买一台市场上最便宜的智能手机所需花费的成本，然而这一成本仍然可能被低估了.</p>
+					<div class="aos-init aos-animate" data-aos="fade-left">
+						<img src="img/southasia.png" style="position: absolute;top:-1000px;left:90%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+	
+	<section  style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-8 center">
+                <div class="box">
+                    <p class="header">聚焦：连接，但代价是什么？</p>
+					<div class="aos-init aos-animate" data-aos="fade-left">
+						<img src="img/illu2.png" style="position: absolute;top:-200px;left:100%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+					<p>疫情之下，线下活动迅速转变为线上事务，连接不得不成为必然。然而，这种必然也意味着付出巨大的代价。在互联网接入率为32.1%的孟加拉国，<strong>接受完整、流畅的在线教育，有时成了一个遥不可及的梦。</strong></p>
+					<p>“有时我会错过课程……在整个课程期间，很多时候网络不好，所以这对我来说非常痛苦。我的朋友中的大多数都遇到了这种问题……他们不得不到外面寻找蜂窝网络并上课。”Anik在达卡的大学和学生宿舍关闭后，回到家乡上网课，“（我的朋友）中的一些人甚至没有任何参加课程的设备，只有不能联网的老手机。”在达卡，为了使得在线考试成为可能并保证公平，学校必须确保所有学生都有一致的互联网连接。许多学生因无法完成课程作业和参加期末考试而被要求延长学年。</p>
+					
+					<p>有时，即使网络条件良好，在线课程也还会给学生们带来额外的财务压力。</p>
+					
+					<p>不仅如此，许多学生仍然只能依靠成本高昂的蜂窝数据网络参与在线课程的学习。尽管该国政府一直在与相关方合作以降低互联网接入成本，该国已经达到了“1 for 2”的目标——即1GB 移动宽带的成本不超过平均月收入的 2%，然而，在线课程显着增加了学生必须使用的数据量。</p>
+					<p>“在农村地区和乡村很难有宽带覆盖。所以，我在农村的同学们大多使用他们的 SIM 卡上网。”网课期间，Ismael和同学们都被迫回到家中参与线上课程，而他在乡下的同学们“必须购买数据，然后参加在线课程。“我们国家的数据价格太高了。大多数情况下，他们必须支付大约 1 美元才能购买 1GB 的数据。……每天参加我们三四个在线课程，……不可能每个人都能负担得起这样的费用。”</p>
+					<div class="aos-init aos-animate" data-aos="fade-right">
+						<img src="img/illu1.png" style="position: absolute;top:-450px;left:0%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+                </div>
+              </div>
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="zh2" style="background-image: url('img/bj2.png');background-repeat: no-repeat;background-size: cover;" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">难民困境：教育与联络</h2>
+            <div class="row">
+              <div class="col-md-4 fade-up">
+                <h1 data-aos="zoom-in">57%</h1><p>57%的难民由于缺乏必要的网课设备或家庭学习项目，在疫情期间被迫中断学习。</p>
+              </div>
+			  <div class="col-md-4 fade-up">
+                <h1 data-aos="zoom-in">142天</h1><p>受疫情影响，难民学习者平均损失142天的学习时间，是全球平均受影响时间的近两倍。</p>
+              </div>
+			  <div class="col-md-4 fade-up">
+                <h1 data-aos="zoom-in">29%</h1><p>近十年来的调查表明，有29%的难民家庭没有手机，只能通过借用、租用电话与他人联络。</p>
+              </div>
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Services-->
+    <section style="background-color: #fff">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">特殊身份带来难题</p>
+                    <p>难民们的数字困境也同样值得重视。由于战乱、灾害、贫困等因素，一些家庭沦为难民，欠发达的基础设施、不充足的通讯设备，让他们的数字生活困难重重。</p>
+					<p>
+					12 岁的 Sahag 和 Salpie 是来自叙利亚的双胞胎，他们的家人在亚美尼亚寻求保护。在学校因新冠疫情而被迫关闭后，二人只能使用老师借给他们的电脑上 Zoom 课程。尽管他们只能偶尔使用老师的电脑，但他们无疑是幸运的。据估计，<strong>78%的难民儿童在疫情肆虐期间学习受限，甚至有57%的难民在学校关闭期间，由于缺乏必要的网课设备或家庭学习项目，被迫中断学习。</strong></p>
+					<p></strong>据联合国难民署统计，受疫情影响，世界各地的学校平均被迫关闭79天，从高收入国家的53天到中低收入国家的115天。而对于难民学习者而言，它们的损失是灾难性的——<strong>平均状况下，他们要在新冠疫情的影响下损失142天的学习时间。</strong></p>
+					<div class="aos-init aos-animate" data-aos="fade-left">
+						<img src="img/出路1.png" style="position: absolute;top:-450px;left:20%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+					<p>
+					数字上的贫瘠更影响着家庭成员间的正常联络。因为人祸或天灾而流离失所，离开原居住地，难民常常缺乏合适的网络互连设备，也往往身处在没有网络信号的环境之中。</p>
+					<p>
+					据联合国难民署在上个十年的调查统计，29%的难民家庭没有手机，一半以上的难民家庭手机无法联网。38%的难民所在区域只有至多2G网络覆盖。</p>
+					<p class="table">图3：全球难民的网络覆盖情况</p>
+					<div class='tableauPlaceholder' id='viz1665935926546' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16659358905800&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16659358905800&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16659358905800&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665935926546');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：UNHCR, Connecting Refugees.</p>
+					
+					
+					
+					
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+	 <section style="background-color: #eee">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+			  
+			  
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">双重鸿沟加剧困境</p>
+					<div class="aos-init aos-animate" data-aos="fade-down">
+						<img src="img/出路2.png" style="position: absolute;top:0px;left:80%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+                    <p>
+					在撒哈拉以南的非洲地区，22.8%的难民生活在无手机信号的“史前时代”之中。难民不仅需要面对特别的身份所带来的数字窘境，更因为信号缺乏、基建不完善而负重前行。来自区域与身份的双重数字鸿沟严重影响了难民们的正常沟通联络。难民家庭往往缺乏手机，更缺乏流畅的网络，当家庭成员不得不分开时，联网设备的不足使得家庭成员的交流变得极为困难。</p>
+					<p>
+					28 岁的 Nyawon 必须用借来的手机，给她在冲突中失散的孩子打电话。“我真心怀念有手机的生活。”为了离开动乱中的南苏丹，她卖掉了身上所有的东西，包括那部能够让她随时随地接听孩子们电话的手机。“如果我有手机，我可以随时打电话询问孩子们是否平安。”如今，她只能盼望孩子们，无时无刻都待在有手机信号的地方。</p>
+					<p>Maher原本在早上六点就应前往机场，但持续不断的战斗一直在发生，他们只好返回家中。两小时后，最新的消息显示，只有他的妻子和两个孩子获得许可前往埃塞俄比亚，他只能留下。时断时续的信号和有限的通讯设备让联络不再可能。家人留给他的，只有一张保存在手机上的全家福照片。“和家人的分离是实实在在的，天知道这种分离会持续多久。开始我一直在抱怨、控诉，最终，我不得不接受这一事实。”</p>
+					<p>Myawon和Maher的难处，正是双重数字鸿沟在非洲难民身上作用的缩影。在埃塞俄比亚，有59.8%的难民生活在没有手机信号的地方；而在南苏丹，<strong>这一比例则高达94%。</strong>他们，几乎成为了数字困境下最为弱势的群体。</p>
+					<p class="table">图4：非洲部分地区难民的网络和手机信号覆盖情况</p>
+					<div class='tableauPlaceholder' id='viz1682083301598' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632609805480&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16632609805480&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632609805480&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682083301598');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：UNHCR, Connected Education Refugees: Addressing Digital Divide.</p>
+					
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+	
+	<section id="zh3" style="background-image: url('img/bj3.png');background-repeat: no-repeat;background-size: cover;" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">两性区隔：追问与答案</h2>
+            <div class="row">
+              
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">1:10</h1><p>每10位十五岁以上女性就有1位经历过某种形式的网络暴力。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">2%</h1><p>未接受教育的女性的互联网接入率仅为2%，是同等条件男性互联网接入率的十分之一。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">38分</h1><p>在韩国，与数字使用密切相关的计算机和信息素养科目上女孩的平均成绩比男孩好38分。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">12%</h1><p>在机器学习这一关键数字经济领域，只有12%的研究者为女性。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	 <section style="background-color: #fff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+			  
+			  
+              <div class="col-lg-8 center">
+                <div class="box">
+					
+                    <p class="header">数字产业中男女是否平等？</p>
+					<p><strong>女性在信息技术领域面临着根深蒂固的刻板印象。</strong>在与数字化紧密相关的科学、技术、工程、数学（STEM）领域，女性比例一直偏低。女性基础劳动力也很难进入数字化经济产业，联合国教科文组织的数据显示，女性在工程专业中占28%，，在计算机信息专业中占40%，仅占全球科研人员中的三分之一，甚至在机器学习研究领域，只有12%的研究者为女性。
+					</p>
+					
+					<p>女性无法进入这些关键数字经济领域，在一定程度上加剧了这些产业对女性的职业歧视。Amazon的自动招聘程序因为识别到输入的科技行业简历绝大部分都是男性，所以根据优化原则，对女性从业者给予较低的评分。而谷歌广告中向女性推送的STEM领域高薪职位明显低于男性用户。</p>
+					<div class="aos-init aos-animate" data-aos="fade-down">
+						<img src="img/性别2.png" style="position: absolute;top:-500px;left:50%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+	
+	<section style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">文化偏见，如何塑造数字壁垒？</p>
+					<p>在《2021年移动互联网性别区隔报告》中，家庭批准在阿尔及利亚和巴基斯坦被列为女性用户采用移动互联网的三大障碍之一。在印度和埃及，由于多种文化原因，大约五分之一的女性认为互联网不适合他们。</p>
+					<p>有关美国青少年网络欺凌案件的数据显示，年轻女孩比男孩更有可能收到不需要的露骨图像。在所有青少年受访者中，29%的女孩和20%的男孩表示他们是这些类型信息的目标。该研究还表明，随着青少年女孩年龄的增长，这一数字也在上升，15-17岁年龄段的女孩中有35%收到了不需要的露骨图像，而同一年龄段的男孩只有20%。</p>
+					<p>欧洲性别平等研究所估计，每10位十五岁以上女性就有1位经历过某种形式的网络暴力。皮尤研究中心一项调查发现，女性，尤其是18岁至24岁的女性，不成比例地受到严重类型的网络骚扰，包括网络跟踪和在线性骚扰等。</p>
+					<p>在针对8个发展中国家的移动互联网使用文化屏障研究中，女性更容易受到有损家庭内容以及语言骚扰的影响，在危地马拉，有超过三分之一的女性认为陌生人骚扰影响了他们使用网络，而只有22%的男性表达了相同的观点。</p>
+					<div class="aos-init aos-animate" data-aos="fade-up">
+						<img src="img/战争2.png" style="position: absolute;top:-500px;left:50%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+					<p class="table">图6：不同性别在移动互联网使用中的文化屏障</p>
+					<div class='tableauPlaceholder' id='viz1663580694414' style='position: relative'><noscript><a href='#'><img alt='工作表 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16635244474030&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16635244474030&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16635244474030&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663580694414');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：GSMA, Connected Women – The Mobile Gender Gap Report 2021.</p>
+					
+					
+					
+					
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	 <section style="background-color: #fff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+			  
+			  
+              <div class="col-lg-8 center">
+                <div class="box">
+					
+                    <p class="header">理工科目，女性天生不如男性？</p>
+					<p>人们常常认为在理工类科目上，男性拥有更强的抽象思维能力、逻辑能力，因此天生优于女性。但14个国家男孩与女孩在信息与通信技术、计算机和信息素养上的得分表明，在信息与通信技术等领域，男女在得分上的差距只有个位数的差别。然而，在计算机和信息素养上，女孩的表现远优于男性。</p>
+					<p class="table">图4：14个国家男女孩在在信息与通信技术、计算机和信息素养上的得分差异</p>
+					
+					<div class='tableauPlaceholder' id='viz1663411494705' style='position: relative'><noscript><a href='#'><img alt='工作表 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632576915290&#47;2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16632576915290&#47;2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632576915290&#47;2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663411494705');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：UNESCO, I'd Blush If I Could.</p>
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+	
+	<section style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-8 center">
+                <div class="box">
+                    <p class="header">教育，能改变性别差距么？</p>
+					<p>性别数字鸿沟与受教育程度有着密切的关系。只有2%的未受教育女性能接入互联网，而在接受高等教育后，这一比例达到了78%。未接受教育的男女互联网使用率相差17%，<strong>接受高等教育后，这一比例锐减至5%。</strong></p>
+					<p class="table">图5：教育对性别数字鸿沟的弥合与修补</p>
+					<div class='tableauPlaceholder' id='viz1663411406272' style='position: relative'><noscript><a href='#'><img alt='工作表 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16634112971210&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16634112971210&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16634112971210&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663411406272');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：DAI, In Honor of Women’s History Month: Exploring the Gender Digital Divide.</p>
+					
+					
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	
+	
+	 
+	
+	<section id="zh4" style="background-image: url('img/bj4.png');background-repeat: no-repeat;background-size: cover;" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">老龄危机：数字孤岛</h2>
+            <div class="row">
+              <div class="col-md-4 fade-up">
+                <h1 data-aos="zoom-in">55岁</h1><p>55岁以上网民大多为”数字移民“，在数字使用方面呈现一定困难。</p>
+              </div>
+			  <div class="col-md-4 fade-up">
+                <h1 data-aos="zoom-in">1:4</h1><p>2021年6月，50-59岁网民和60岁及以上网民占总网民的比重达到25.6%，超过总网民数量的四分之一。</p>
+              </div>
+			  <div class="col-md-4 fade-up">
+                <h1 data-aos="zoom-in">31.2%</h1><p>在数字化程度较高的中国，有31.2%的老年网民无法独立出示健康码。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+	
+	<section style="background-color: #fff">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">误落尘网</p>
+					<p>在发达国家和部分发展中国家，数字生活的高度丰富、数字经济的高度发达已基本满足了民众接入网络、享受网络的需求，却走入了另一个极端。充分数字化的生活，让老龄群体无所适从。</p>
+					
+					<p>中青年群体对智能手机的学习经历了从无到有、主动适应、循序渐进的过程，他们见证着互联网各项功能的出现与发展，在使用上自然是更为熟悉，他们也被称为“数字原住民”。而与之相对的是，作为“数字移民”的老龄群体，往往被迫“落入尘网”，需要直面智能手机的众多陌生功能，学习能力的差距、身体机能的退化、认知能力的衰退使得网络的使用成本不断被提高，学习更为困难。</p>
+					<p>在数字化国家，老龄群体的触网进程正在加速。从2020年3月至2021年12月，在互联网普及率达74.4%的中国，网民老年化趋势明显。在接近五年的时间内，50-59岁网民占总网民比重从11.3%上升到15.3%；60岁以上网民占总网民比重则更是从7.45%上升到11.5%。<strong>数字鸿沟，正将越来越多的老年人抛入网络之中。</strong></p>
+					<div class="aos-init aos-animate" data-aos="fade-up">
+						<img src="img/老人2.png" style="position: absolute;top:-500px;left:50%;transform: translateX(-50%);background-repeat: no-repeat;opacity: 0.3;">
+					</div>
+					<p class="table">图6：2019年6月以来老龄网民占总网民的比重</p>
+					<div class='tableauPlaceholder' id='viz1663292247115' style='position: relative'><noscript><a href='#'><img alt='工作表 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632922116560&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16632922116560&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632922116560&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663292247115');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：中国互联网络信息中心，第45-50次《中国互联网络发展状况统计报告》.</p>
+					
+					
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">身陷樊笼</p>
+					
+					<p>在医疗、购物、信息高度数字化的中国，<strong>“误入尘网”的老年群体正在“身陷樊笼”。</strong>中国互联网络信息中心的报告显示，全国范围内，有31.2%、47.8% 及 53.7%的老年网民无法独立完成出示健康码/行程卡、购买生活用品、查找信息等网络活动。超过三分之二的老年网民无法独立完成网上叫车、订票和挂号。</p>
+					<p class="table">图7：老年网民无法独立完成的网络活动比例</p>
+					<div class='tableauPlaceholder' id='viz1663259825185' style='position: relative'><noscript><a href='#'><img alt='工作表 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632598144620&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16632598144620&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632598144620&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663259825185');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：中国互联网络信息中心，第49次《中国互联网络发展状况统计报告》.</p>
+					
+					
+					
+					
+					
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section style="background-color: #fff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+			  
+			  
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">困于数字</p>
+                    <p>根据《Digital 2022》7月的调查数据，全球网民中，相比其他年龄段的网民，55岁以上的网民在语音辅助输入、在线看病问诊、移动支付、视频通讯等方面使用率均明显偏低。大量的银发用户仍无法掌握语音输入、看病问诊等重要的数字功能。</p>
+					<p class="table">图8：各年龄段网民在核心数字功能使用上的表现</p>
+					
+					<div class='tableauPlaceholder' id='viz1663292973249' style='position: relative'><noscript><a href='#'><img alt='工作表 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632928901440&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16632928901440&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16632928901440&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1663292973249');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<p class="illu">数据来源：Kepios, Digital 2022 Global Overview Report.</p>
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+	
+	<section style="background-color: #eee">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+			  
+			  
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">囚于孤岛</p>
+                   <p>《数字化生存》一书的作者针对万物皆可数字化的趋势，曾高瞻远瞩地警告世人“计算不再只和计算机有关，它决定我们的生存。”如今，此言一语成谶。<strong>学习能力的差距，身体机能的退化，认知能力的衰退使得代际鸿沟不断被拉大，无法跟上数字技术发展的老年人们被困在赛博世界0与1所组成的的数字孤岛里。</strong></p>
+					<iframe src="mini-game/menu.html" height="550px" width="100%" style="border: 2px solid black;box-shadow: darkgrey 10px 10px 10px 5px"></iframe>
+					<p class="illu">请使用键盘进行操作，上下左右或WASD控制人物运动，SPACE切换进制
+					<br>穿过24层虚拟世界，抵达老人们的数字孤岛</p>
+                </div>
+			  </div>
+			  
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section>
+
+    <section id="zh5" style="background-image: url('img/bj5.png');background-repeat: no-repeat;background-size: cover;" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">出路何方</h2>
+            <div class="row">
+              <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">65%</h1><p>预计到2025年，将有约65%的非洲人口可以连接移动互联网。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">452家</h1><p>中国已组织完成对 452 家网站和 APP的适老化、无障碍化改造和评测。</p>
+              </div>
+              <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">2063年</h1><p>数字化转型已排在非盟《2063年议程》首要任务之列，“数字非洲”建设成为非洲各国的发展共识。</p>
+              </div>
+			  <div class="col-md-3 fade-up">
+                <h1 data-aos="zoom-in">5G</h1><p>预计到2022年底，5G网络将在至少12个非洲国家启动或实施商用。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- text page end-->
+    <!-- contact-->
+    <section style="background-color: #fff;" class="text-page pb-4"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+				<div class="col-lg-8 center">
+					<div class="box">
+						<p>数字鸿沟已不再是非黑即白的一场较量，随着数字化的不断深入与不平衡发展，数字受困的情形更加多样、更加复杂、更加隐秘，一系列具有启发意蕴的思考正在孕育萌发。 两种截然不同的数字化方案应运而生，为多样复杂的数字困境提供切实可行的现实方案。</p>
+						<p class="header">非洲方案：数字升级转型</p>
+						<p>作为非洲大陆在21世纪提升全球竞争力的重要举措，数字升级、数字化转型已排在非盟《2063年议程》首要任务之列，“数字非洲”建设成为非洲各国的发展共识。</p>
+						<p class="table">图9：2019年至今以来非洲国家的数字化举措</p>
+						<div class='tableauPlaceholder' id='viz1664115463338' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16641154352230&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_16641154352230&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16641154352230&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1664115463338');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+						</div>
+						
+						<p>为推动非洲整体数字经济发展，非盟《2063年议程》提出建设泛非电子网络、非洲在线大学等多个数字经济相关旗舰项目。《非洲数字化转型战略（2020～2030）》更是从宏观上对非洲数字化发展目标和方案进行规划。</p>
+						<p>今年召开的数字非洲峰会提出，预计到2025年，将有超过65%的非洲人口将能连接移动互联网。一幅颇具希望的数字非洲设计图纸正在徐徐展开。</p>
+						
+				</div>
+				
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section style="background-color: #eee;" class="text-page pb-4"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+			<div class="row">
+              <div class="col-lg-8 center">
+                <div class="box">
+					<p class="header">中国方案：有温度的改造</p>
+					<p>在中国，围绕老年人等弱势群体的适老化改造方案也正在落实贯彻。日前，我国工信部“互联网应用适老化及无障碍改造专项行动”成效显著，超两百款App已通过评测，涵盖生活购物、美食外卖、金融支付等多个大类的全部主流App。截至 2022 年 6 月，工业和信息化部已组织完成对 452 家网站和 APP的适老化、无障碍化改造和评测，不断贴近老年人和残障人士的应用需求，帮助特殊群体共享信息化成果，让智能生活有温度、无障碍。</p>
+					<p class="table">图10：第一批通过适老化及无障碍改造验收的互联网应用</p>
+					<div id="main1" style="height: 500px; margin-bottom: 30px;"></div>
+					<p class="illu">数据来源：中国信通院，“工业和信息化部‘互联网应用适老化及无障碍改造专项行动’首批通过适老化及无障碍水平评测的APP”</p>
+					<p>两种数字化方案尽管有着完全不同的任务目标和历史时代背景，但对于弥合数字鸿沟共通的尝试、对于消除数字贫困共有的认识、对于摆脱数字困境共同的梦想，让两种方案，在为人类谋福祉、为文明创未来的层面上殊途同归。</p><p>它们，正在构建人类全新的未来。</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section style="background-image: url('img/tail.jpg');" class="intro">       
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-lg-8 center" style="text-align:center;">
+              
+			  <p>
+			  然而，消除数字困境的努力与尝试绝非一日之功。
+			  </p>
+			  <p>
+			  新冠疫情肆虐、局部冲突不断、贸易壁垒加剧的现状下，数字鸿沟可能进一步割裂世界，延缓甚至终止当前的全球数字化进程。跨越数字鸿沟的未来并非一蹴而就，而注定道阻且长。
+			  </p>
+			  <p>面对全球性的数字困境，面对难以弥合的信息鸿沟，国际社会、地区政府与社会组织应仔细审视，在普及信息技术与互联网络的同时，更要打破隐性、软性、弹性的数字壁垒，消除文化偏见与社群歧视。
+			  </p>
+			  
+			  <p>
+			  无论地域、身份、性别、年龄，<br>
+			  <strong>每个人，都应享受能用、敢用、会用互联数字网络的权利，<br>
+			  每个人，都不应成为信息技术下永远的弱势群体。</strong>
+			  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section class="intro" style="height:100%">       
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-lg-8 center">
+              
+			  <p>参考资料：</p>
+			  <div class="data">
+			    人民网，《弥合数字鸿沟，助力可持续发展》;
+			<br>央视新闻，《非洲数字经济驶入“快车道”》;
+			<br>中国青年网，《世界互联网大会探讨如何“迈向数字文明新时代”》;
+			<br>中国互联网络信息中心，《中国互联网络发展状况统计报告》;
+			<br>联合国难民署，Connected Education for Refugees Addressing the Digital Divide;
+			<br>联合国难民署，Connecting Refugees;
+			<br>联合国国际电信联盟，Measuring digital development - Facts and figures;
+			<br>联合国教科文组织，I'd blush if I could: closing gender divides in digital skills through education;
+			<br>联合国教科文组织，Cracking the code: Girls’ and women’s education in science, technology, engineering and mathematics (STEM);
+			<br>万维网基金会，The cost of smartphones falls, but they remain unaffordable for billions around the world;
+			<br>全球移动通信系统协会，The Mobile Gender Gap Report 2021;
+			<br>Alliance for affordable internet，Access to the internet, access to the world: students’ experiences of online learning in Bangladesh during Covid-19;
+			<br>Alliance for affordable internet， affordable internet is 1 for 2;
+			<br>Kepios，Digital 2022 Global Overview Report;
+			<br>Kepios，Digital 2022 July Global Statshot Report;
+			<br>DAI, In Honor of Women’s History Month: Exploring the Gender Digital Divide;
+			<br>FreeCodeCamp，Fun Chrome Eggs: Google Dinosaur Games.
+
+			  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <footer style="background-color: #111;">
+      <div class="container"> 
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p class="mb-md-0 text-center text-md-left">Copyright &copy; 2022-2023.CUC All rights reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <p class="mb-md-0 text-center text-md-right" style="font-style: normal;">创作团队：罗雨果、钟睿、杨宇帆、具千辉、董吉郅</p>
+		
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="js/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+	<script src="js/i.js"></script>
+	
+</body>
+</html>
